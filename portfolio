@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+
+
+
+<!-- HEADING -->
+<html lang="en">
+    <head>
+        <title>css</title>
+    </head>
+    <body>
+        <p style="font-size: large; text-align: center;">     <!-- CSS -->
+
+            Tachina Gomes
+        </p>
+        <p style="font-size: medium; text-align: center;">
+            Welcome to my home page!
+        </p>
+
+
+        <head>
+            <title>
+                image
+            </title>
+        </head>
+        <body>
+            <!-- https://www.harvard.edu/ -->
+            <img alt="Toronto" src="data:image/jpeg;base64,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">
+        </body>
+
+
+        </head>
+        <body>
+
+<!-- User -->
+
+
+        <html lang="en">
+            <head> <body>
+                <button id="red">R</button>
+                <button id="green">G</button>
+                <button id="blue">B</button>
+                <script>
+
+                    let body = document.querySelector('body');
+                    document.querySelector('#red').addEventListener('click', function() {
+                        body.style.backgroundColor = 'red';
+                    });
+                    document.querySelector('#green').addEventListener('click', function() {
+                        body.style.backgroundColor = 'green';
+                    });
+                    document.querySelector('#blue').addEventListener('click', function() {
+                        body.style.backgroundColor = 'blue';
+                    });
+
+                </script>
+
+            </body>
+                <script>
+                    function Enter()
+            {
+                let name = document.querySelector('#name').value;
+             alert('Hello '+ name);
+            }
+                </script> <title>
+                    hello, User </title>
+                </head>
+
+                <body>
+                 <form onsubmit="Enter(); return false;">
+                 <input autocomplete="off" autofocus id="name" placeholder="First and last name" type="text">
+                 <button type="submit">Enter</button>
+            </form>
+
+            </body>
+
+
+            <!-- intro -->
+
+<html lang="en">
+    <head>
+        <title style="font-size: small; text-align: center;"></titlestyle>>hello, my name is tachina :)</title>
+    </head>
+    <body style="font-size: small; text-align: center;"></body>
+        hello, my name is tachina :)
+        and
+        this is my Portfolio
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- PARAGRAPHS -->
+
+</head>
+
+<body>
+
+    <h1>My Work</h1>
+
+    <h2>  Contractor: J.T. Enterprise General Contracting Corp. </h2>
+    <p>
+
+        A contractor is a professional individual or company engaged in the construction industry, responsible for executing various building
+        projects. These projects can range from residential and commercial construction to infrastructure development. Contractors play a
+        crucial role in the realization of architectural designs and engineering plans, overseeing the entire construction process from planning
+        and budgeting to execution and completion. They act as coordinators, bringing together skilled labor, materials, and equipment to ensure
+        the successful and timely completion of construction projects.
+
+        Responsibilities and Expertise:
+        Contractors are tasked with a multitude of responsibilities, including project planning, cost estimation, resource allocation, and
+        on-site management. They collaborate with architects, engineers, subcontractors, and other stakeholders to ensure that the project
+        adheres to specifications, codes, and safety standards. Depending on the scope of the project, contractors may specialize in areas
+        such as general construction, electrical work, plumbing, or HVAC systems. Their expertise extends to understanding and interpreting
+        blueprints, managing project schedules, and addressing unforeseen challenges that may arise during construction.
+
+        Types of Contractors:
+        Contractors can be broadly categorized into general contractors and specialized contractors. General contractors oversee the overall
+        construction project and may hire subcontractors for specific tasks. Specialized contractors focus on particular trades or services,
+        such as plumbing, electrical work, or roofing. Both types of contractors play critical roles in the construction industry, ensuring
+        that each aspect of a project is handled with precision and expertise. Contractors may work independently, as part of a construction
+        firm, or as the head of their own contracting business.
+
+        Importance in the Construction Industry:
+        The role of a contractor is integral to the construction industry's success. Their ability to manage resources efficiently, coordinate
+        various aspects of a project, and deliver high-quality work is essential for creating functional and aesthetically pleasing structures.
+        Contractors contribute significantly to economic development by translating architectural visions into tangible, well-constructed buildings
+        and infrastructure. Their skills, knowledge, and experience make them key players in the construction process, influencing the overall
+        quality and success of a wide range of projects in the built environment.
+
+               <!-- link sunsetbar.ca-->
+
+   <html lang="en">
+    <head>
+        <title>link</title>
+    </head>
+    <body>
+       Comapny: <a href="https://www.canadacompanyregistry.com/companies/jt-enterprise-general-contracting-corp/">J.T. Enterprise Jeneral Contracting corp.</a>.
+    </body>
+
+    </p>
+
+    <h2> Art Work: SunSetBar </h2>
+    <p>
+        A painter is an artist who expresses their creativity and vision through the medium of paint. Typically working on canvases, walls,
+        or other surfaces, painters use brushes, palette knives, or other tools to apply various types of paint, such as oil, acrylic,
+        watercolor, or tempera. The process involves selecting colors, mixing them to achieve desired shades, and applying the paint to
+        create visual compositions. Painters often work across different styles and genres, ranging from realistic and representational
+        to abstract and conceptual. Their work may depict landscapes, portraits, abstract concepts, or any subject matter that inspires
+        them. Painters often rely on their understanding of color theory, composition, and techniques to convey emotions, tell stories,
+        or provoke thought through their artwork. Whether employed as fine artists, illustrators, muralists, or scenic painters, individuals
+        in this profession play a crucial role in shaping and enriching the visual arts.
+
+           <!-- link sunsetbar.ca-->
+
+   <html lang="en">
+    <head>
+        <title>link</title>
+    </head>
+    <body>
+       Gallary: <a href="https://www.sunsetbar.ca/">sunsetbar</a>.
+    </body>
+
+    </p>
+
+    <h2> Developer: Jse </h2>
+    <p>
+        A developer is a professional who specializes in creating software applications, websites, or other technological solutions.
+        These individuals are skilled in programming and use various coding languages to write, test, and maintain the source code that
+        forms the backbone of software programs. Developers work across a range of fields, including web development, mobile app development,
+        software engineering, and more. They collaborate with designers, project managers, and other stakeholders to understand the
+        requirements and objectives of a project, and then they translate these into functional and efficient code.
+
+        In addition to writing code, developers are responsible for debugging and troubleshooting to identify and fix any issues that may
+        arise during the development process. They also work on optimizing the performance of applications and ensuring they meet security
+        and quality standards. Continuous learning is a key aspect of a developer's role, as technology evolves rapidly, and staying
+        up-to-date with the latest programming languages, frameworks, and tools is essential.
+
+        Developers may specialize in specific areas such as front-end or back-end development, database management, or focus on particular
+        programming languages like Python, Java, JavaScript, or others. Overall, developers play a critical role in the creation and
+        maintenance of the digital tools and systems that power our modern technological landscape.
+
+                 <!-- link sunsetbar.ca-->
+
+   <html lang="en">
+    <head>
+        <title>link</title>
+    </head>
+    <body>
+       App: <a href="https://gallery.appinventor.mit.edu/?galleryid=912d4271-ff71-4c2f-8576-0c4805a778eb">Jse</a>.
+    </body>
+
+    </p>
+
+    <h2>  Charity Work:Freedom City </h2>
+    <p>
+
+        Charity photography work involves the creation of visual content, typically photographs, for charitable organizations or causes
+        without the primary aim of financial gain. Photographers engaged in charity work often collaborate with non-profit organizations,
+        NGOs, or community groups to visually document their activities, tell compelling stories, and raise awareness about social issues.
+        The photographs captured in charity photography serve various purposes, such as advocacy, fundraising, and education.
+
+        Photographers involved in charity work may cover a range of subjects, including humanitarian efforts, community projects, environmental
+         issues, healthcare initiatives, and more. They strive to capture powerful images that evoke emotions, convey the essence of the cause,
+         and inspire action. These images are then often used in promotional materials, websites, social media, and other platforms to share the
+         organization's mission and impact.
+
+        Charity photography can also involve collaborating with marginalized communities or individuals, aiming to empower them by telling their
+        stories visually. By contributing their skills and services, photographers play a crucial role in helping charitable organizations
+        communicate effectively, engage their audience, and ultimately make a positive impact on the social and environmental issues they are
+        addressing.
+
+        <html lang="en">
+    <head>
+        <title>link</title>
+    </head>
+    <body>
+       Charity: <a href="https://www.freedomcity.ca/">FreedomCity</a>.
+    </body>
+
+    </p>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- image/ -->
+
+
+    <head>
+        <title>
+            image
+        </title>
+    </head>
+    <body>
+        <!-- https://www.harvard.edu/ -->
+        <img alt="Tachinas Mountain" src="https://www.woodsmith.com/review/wp-content/uploads/2023/07/essential-carpenter-tools-woodsmith.jpg">
+    </body>
+
+
+    </head>
+    <body>
+
+
+
+
+
+
+
+
+
+
+    <!-- Credit -->
+
+    <lstyle="font-size: small; text-align: center;"></lstyle> <!-- unsorted lists --> <!-- list by numvber (ol) ordered list -->
+        <li>Developer</li>
+
+    <ulstyle="font-size: small; text-align: center;"></ulstyle> <!-- unsorted lists --> <!-- list by numvber (ol) ordered list -->
+        <li>Jessica</li>
+        <li>Sidney</li>
+        <li>Tachina</li>
+        <li>Gomes</li>
+
+    </0l>
+</body>
+
+
+
+
+
+   <!-- link sunsetbar.ca-->
+
+   <html lang="en">
+    <head>
+        <title>link</title>
+    </head>
+    <body>
+       Gallary <a href="https://www.sunsetbar.ca/">sunsetbar</a>.
+    </body>
+
+
+
+
+<!-- link instagram -->
+
+<html lang="en">
+    <head>
+        <title>link</title>
+    </head>
+    <body>
+       Instagram <a href="https://www.instagram.com/ta.chi.na/">ta.chi.na</a>.
+    </body>
+
+
+
+
+    <!-- link twiter -->
+
+<html lang="en">
+    <head>
+        <title>link</title>
+    </head>
+    <body>
+       Twiter <a href="https://twitter.com/tachinag_">tachinaG_</a>.
+    </body>
+
+
+
+
+
+
+
+
+
+    <!-- hobbies -->
+
+
+    <head>
+        <title>My Hobbies</title>
+
+        <style>
+
+
+
+            body
+
+            @keyframes animate {
+
+                0%{
+                    transform: translateY(0) rotate(0deg);
+                    opacity: 1;
+                    border-radius: 50%;
+                }
+
+                100%{
+                    transform: translateY(-1000px) rotate(720deg);
+                    opacity: 0;
+                    border-radius: 50%;
+                }
+
+            }
+
+            /* Imported code from online https://codepen.io/fantaghiro/pen/yLoLjg */
+            .container {
+                background-color: black;
+                background-image: -webkit-radial-gradient(white, rgba(255, 255, 255, 0.2) 2px, transparent 40px), -webkit-radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px), -webkit-radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px), -webkit-radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
+                background-image: -moz-radial-gradient(white, rgba(255, 255, 255, 0.2) 2px, transparent 40px), -moz-radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px), -moz-radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px), -moz-radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
+                background-image: -ms-radial-gradient(white, rgba(255, 255, 255, 0.2) 2px, transparent 40px), -ms-radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px), -ms-radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px), -ms-radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
+                background-image: -o-radial-gradient(white, rgba(255, 255, 255, 0.2) 2px, transparent 40px), -o-radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px), -o-radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px), -o-radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
+                background-image: radial-gradient(white, rgba(255, 255, 255, 0.2) 2px, transparent 40px), radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px), radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
+                background-position: 0 0px, 40px 60px, 130px 270px, 70px 100px;
+                background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+
+                border-radius: 10px;
+                margin-top: 48px;
+            }
+
+
+            /* Imported code ends here */
+
+            img {
+                border-top-left-radius: 45px;
+                border-top-right-radius: 45px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+
+            body > div > div > div > div {
+                border: 5px solid rgb(0, 0, 0);
+            }
+
+            h1 {
+                font-family: 'Glory', sans-serif;
+                display: flex;
+                justify-content: center;
+                color: azure;
+                font-weight: 600;
+                letter-spacing: 2;
+                font-size: 3rem;
+                padding-top: 8;
+                padding-bottom: 4;
+            }
+
+            .text {
+                text-align: left;
+                padding: 3px;
+                font-family: 'Economica', sans-serif;
+                font-weight: 600;
+                font-size: 20;
+                color: black;
+                letter-spacing: 0.7;
+            }
+
+            .kdrama-bg {
+                background-color: #ffbd4b;
+                padding: 5px 5px 0px 5px;
+            }
+
+            .cooking-bg {
+                background-color: rgb(197, 25, 25);
+                padding: 5px 5px 0px 5px;
+            }
+
+            .anime-bg {
+                background-color: rgb(255, 157, 127);
+                padding: 5px 5px 0px 5px;
+            }
+
+            .exercising-bg {
+                background-color: #9A3B3B;
+                padding: 5px 5px 0px 5px;
+            }
+
+            .gordon-bg {
+                background-color: #e2ba99;
+                padding: 5px 5px 0px 5px;
+            }
+
+            .music-bg {
+                background-color: rgb(255, 106, 60);
+                padding: 5px 5px 0px 5px;
+            }
+            /* Customized for cellphones */
+            @media (max-width: 992px) {
+                .container {
+                    margin: 8;
+                    width: auto;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 20;
+                    margin-bottom: 20;
+                }
+
+                h1 {
+                    font-size: 2rem;
+                }
+
+                .text {
+                    font-size: 2.5rem;
+                }
+            }
+        </style>
+    </head>
+
+
+    <!-- Imported HTML code ends here -->
+
+    <div class="container px-3 py-2">
+        <div><h1>My Hobbies</h1></div>
+        <div class="row px-2">
+            <div class="kdrama-bg col-lg-4">
+                <img src="./assets2/Kdrama 01.jpg" class="img-fluid" alt="One Pioce - HxH - Buddy Daddies">
+                <div class="text">Anime</div>
+            </div>
+
+            <div class="cooking-bg col-lg-4">
+                <img src="./assets2/Cooking 01 - Photo by Vanessa Loring.jpg" class="img-fluid" alt="I love cooking for my husband">
+                <div class="text">Cooking</div>
+            </div>
+
+            <div class="Anime-bg col-lg-4">
+                <img src="./assets2/Anime 02.jpg" class="img-fluid" alt="Ive been playing since i was 7 years old">
+                <div class="text">Guitar Playing</div>
+            </div>
+        </div>
+
+        <div class="row px-2 pb-1">
+            <div class="exercising-bg col-lg-4">
+                <img src="./assets2/Exercise 01.jpg" class="img-fluid" alt="Walking/running on a treadmill and doing squats">
+                <div class="text">Exercising</div>
+            </div>
+
+            <div class="gordon-bg col-lg-4">
+                <img src="./assets2/Gordon 01.jpg" class="img-fluid" alt="COD - Mortal combat - APEX">
+                <div class="text">Jamoie Oliver Shows</div>
+            </div>
+
+            <div class="music-bg col-lg-4">
+                <img src="./assets2/Music 01 - Photo by Pixabay.jpg" class="img-fluid" alt="Contracting all over the GTA">
+                <div class="text">Construction</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </body>
+
+
+
+
+
+
+
+
+
+
+    <!-- Contacting  -->
+
+
+    <head>
+        <title>My Contact</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <style>
+
+
+            body {
+                background: linear-gradient(-45deg, #006400, #FFFF00, #008000, #0000FF);
+                background-size: 400% 400%;
+                animation: gradient 15s ease infinite;
+                height: 100vh;
+            }
+            @keyframes gradient {
+                0% {
+                    background-position: 0% 50%;
+                }
+                20% {
+                    background-position: 100% 50%;
+                }
+                100% {
+                    background-position: 0% 50%;
+                }
+            }
+            .container {
+                margin: 250px 250px 250px 250px;
+                background-color: rgb(100, 100, 100);
+                border-radius: 0%;
+                padding: 25px;
+                width: auto;
+            }
+            .text {
+                font-size: 20px;
+            }
+
+            @media (max-width: 992px) {
+                .container {
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                h1 {
+                    font-size: 3rem;
+                }
+                .text {
+                    font-size: 1.5rem;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container text">
+            <h1>Tachina Gomes's Contact</h1>
+            <p>
+                Toronto, ON<br/>
+                Canada
+            </p>
+            <p>+Instagram: Ta.chi.na</p>
+            <p>ta.chi.na@outlook.com</p>
+
+            <div class="py-3">
+                <label for="exampleFormControlInput1" class="form-label">Your Email Address:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div>
+                <label for="exampleFormControlTextarea1" class="form-label">Details:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+            </div>
+
+            <button type="button" class="btn btn-primary mt-3">Send Email</button>
+        </div>
+    </body>
+
+
+
+
+
+    <!-- copyright -->
+
+    <p style="font-size: small; text-align: center;">  <!-- CSS -->
+        Copyright &#169; Tachina Gomes
+    </p>
+
+
+
+
+</body>
+</html>
